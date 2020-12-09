@@ -56,10 +56,12 @@ for i in range(n):
 # Get stopping error value from user
 e0 = float(input("Enter e0 error value: "))
 
-print("Coefficients matrix\n", a)
-print("Initial vector x = \n", x)
-print("Vector b\n", b)
 print()
+print("Coefficients matrix A = \n", a)
+print("Initial vector x = \n", x)
+print("Vector b = \n", b)
+print()
+
 # Initial error value and iteration number
 err = 1
 ino = 1
