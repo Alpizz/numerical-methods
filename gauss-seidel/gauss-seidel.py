@@ -1,6 +1,11 @@
+# Written by Alper Zorlutuna 040180515
+# MAT 202E Numerical Methods
+# Homework 2
+# Gauss-Seidel Python Program
 import numpy as np
 
 
+# Define function for Gauss-Seidel method
 def gauss_seidel(a, x, b):
 	"""
 	Solves given Ax = b linear system where A is coefficients matrix
